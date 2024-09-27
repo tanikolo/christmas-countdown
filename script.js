@@ -3,7 +3,7 @@ gsap.to(".container", { opacity: 1, duration: 2, delay: 1.6 })
 gsap.to("button", { opacity: 1, rotation: 360, duration: 1, delay: 1.3 })
 
 function christmasCountdown() {
-  const christmasDate = new Date("December 25, 2023 00:00");
+  const christmasDate = new Date("December 25, 2024 00:00");
   const now = new Date();
   const diff = christmasDate - now;
 
